@@ -8,3 +8,4 @@ jobs:
     uses: RohitSaini04/sample_action/.github/workflows/reusable_workflow.yml@main
     with:
       username: "rohit"
+      lastname: "saini"
