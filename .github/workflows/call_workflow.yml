@@ -1,0 +1,10 @@
+name: Manual Trigger Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-workflow-passing-data:
+    uses: RohitSaini04/sample_action/.github/workflows/reusable-workflow.yml
+    with:
+      username: "rohit"
